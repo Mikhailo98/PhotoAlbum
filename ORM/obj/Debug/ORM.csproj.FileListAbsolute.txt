@@ -1,0 +1,52 @@
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.dll.config
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.dll
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.pdb
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.dll
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.dll
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.xml
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.xml
+E:\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csprojAssemblyReference.cache
+E:\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CoreCompileInputs.cache
+E:\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CopyComplete
+E:\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.dll
+E:\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.pdb
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.dll
+E:\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\ORM.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csprojAssemblyReference.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CoreCompileInputs.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CopyComplete
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\obj\Debug\ORM.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\ORM.dll.config
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\ORM.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\ORM.pdb
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.pdb
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\PhotoAlbumCore.dll.config
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Photo Album\Backend\PhotoAlbum\ORM\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\ORM\obj\Debug\ORM.csprojAssemblyReference.cache
+C:\Photo Album\Backend\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CoreCompileInputs.cache
+C:\Photo Album\Backend\PhotoAlbum\ORM\obj\Debug\ORM.csproj.CopyComplete
+C:\Photo Album\Backend\PhotoAlbum\ORM\obj\Debug\ORM.dll
+C:\Photo Album\Backend\PhotoAlbum\ORM\obj\Debug\ORM.pdb

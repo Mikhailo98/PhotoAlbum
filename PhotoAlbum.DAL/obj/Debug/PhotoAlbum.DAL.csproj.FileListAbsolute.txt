@@ -1,0 +1,9 @@
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\bin\Debug\PhotoAlbum.DAL.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\bin\Debug\PhotoAlbum.DAL.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\bin\Debug\PhotoAlbumCore.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\bin\Debug\PhotoAlbumCore.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\obj\Debug\PhotoAlbum.DAL.csprojAssemblyReference.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\obj\Debug\PhotoAlbum.DAL.csproj.CoreCompileInputs.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\obj\Debug\PhotoAlbum.DAL.csproj.CopyComplete
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\obj\Debug\PhotoAlbum.DAL.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.DAL\obj\Debug\PhotoAlbum.DAL.pdb

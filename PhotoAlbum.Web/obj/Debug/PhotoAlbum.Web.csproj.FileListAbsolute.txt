@@ -1,0 +1,617 @@
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csprojAssemblyReference.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CoreCompileInputs.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ApplicationInsights.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.rsp
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.rsp
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.AppContext.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Console.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Compression.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Claims.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.ValueTuple.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.rsp
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.ApplicationInsights.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Owin.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebGrease.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CopyComplete
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebActivatorEx.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebApiContrib.IoC.Ninject.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csprojAssemblyReference.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CoreCompileInputs.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ApplicationInsights.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.rsp
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.rsp
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Managed.Core.targets
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.AppContext.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Collections.Immutable.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Console.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Compression.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Reflection.Metadata.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.AccessControl.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Claims.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Principal.Windows.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.ValueTuple.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XmlDocument.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.rsp
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Agent.Intercept.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.ApplicationInsights.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Web.Infrastructure.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebActivatorEx.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebApiContrib.IoC.Ninject.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\WebGrease.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CopyComplete
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.WebApi.DependencyResolver.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\ApplicationInsights.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.Web.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.exe.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csc.rsp
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.exe.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\csi.rsp
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.AppContext.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Console.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Compression.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Claims.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.ValueTuple.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.exe.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\vbc.rsp
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.WebApi.DependencyResolver.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\WebActivatorEx.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\WebApiContrib.IoC.Ninject.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\WebGrease.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\PhotoAlbumCore.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\AutoMapper.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Ninject.Web.WebApi.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.ValueTuple.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Newtonsoft.Json.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Net.Http.Formatting.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Helpers.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.WebHost.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Mvc.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Optimization.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Razor.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Antlr3.Runtime.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\EntityFramework.SqlServer.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Owin.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.AI.Web.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\ORM.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\ORM.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csprojAssemblyReference.cache
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CoreCompileInputs.cache
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CopyComplete
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\MultipartDataMediaFormatter.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Cors.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Cors.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.Web\bin\System.Web.Http.Cors.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csprojAssemblyReference.cache
+C:\Photo Album\Backend\New\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CoreCompileInputs.cache
+C:\Photo Album\Backend\New\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\ApplicationInsights.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.Web.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.Web.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csc.exe
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csc.exe.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csc.rsp
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csi.exe
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csi.exe.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\csi.rsp
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.AppContext.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Console.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.IO.Compression.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Claims.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.ValueTuple.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\vbc.exe
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\vbc.exe.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\vbc.rsp
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Antlr3.Runtime.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\AutoMapper.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\EntityFramework.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\EntityFramework.SqlServer.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.Web.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\MultipartDataMediaFormatter.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Newtonsoft.Json.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.Common.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.WebApi.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.WebApi.DependencyResolver.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Owin.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbumCore.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Net.Http.Formatting.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.ValueTuple.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Cors.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Helpers.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.Cors.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.Owin.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.WebHost.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Mvc.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Optimization.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Razor.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\WebActivatorEx.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\WebApiContrib.IoC.Ninject.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\WebGrease.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\ORM.dll
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.BLL.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbum.BLL.dll.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbumCore.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\PhotoAlbumCore.dll.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\AutoMapper.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\AutoMapper.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.Common.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.Common.WebHost.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Ninject.Web.WebApi.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Net.Http.Formatting.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.ValueTuple.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.Cors.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Newtonsoft.Json.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Helpers.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.WebHost.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Mvc.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Optimization.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Razor.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.WebPages.Razor.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Antlr3.Runtime.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\EntityFramework.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\EntityFramework.SqlServer.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Web.Http.Owin.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.AI.Web.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\ORM.pdb
+C:\Photo Album\Backend\New\PhotoAlbum.Web\bin\ORM.dll.config
+C:\Photo Album\Backend\New\PhotoAlbum.Web\obj\Debug\PhotoAlbum.Web.csproj.CopyComplete

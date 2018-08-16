@@ -1,0 +1,105 @@
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csprojAssemblyReference.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CoreCompileInputs.cache
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll.config
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CopyComplete
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.dll
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.pdb
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.xml
+E:\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csprojAssemblyReference.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CoreCompileInputs.cache
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CopyComplete
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.pdb
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.SqlServer.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Newtonsoft.Json.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Owin.dll
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.dll.config
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.SqlServer.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+H:\TEMP PHOTO ALBUM\PhotoAlbum\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbum.BLL.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Owin.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\ORM.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\PhotoAlbumCore.dll.config
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.pdb
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\AutoMapper.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\Ninject.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\bin\Debug\System.ValueTuple.xml
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csprojAssemblyReference.cache
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CoreCompileInputs.cache
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.csproj.CopyComplete
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.dll
+C:\Photo Album\Backend\PhotoAlbum\PhotoAlbum.BLL\obj\Debug\PhotoAlbum.BLL.pdb
