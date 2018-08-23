@@ -1,0 +1,16 @@
+<div id="search-component">
+  <div id="search-input">
+    <input #searchBox id="search-box" placeholder="Search for tags.." (keyup)="search(searchBox.value)" />
+  </div>
+  <ul id="search-results-ul">
+
+    <li *ngFor="let tag of tags$ | async" routerLink="tag/{{tag.Id}}">
+
+      <!-- (click)="onSelectTag(tag.Id)" -->
+
+      <a> {{tag.Description}}
+        <span class="postsnumber">{{tag.ImagesCount}} Posts</span>
+      </a>
+    </li>
+  </ul>
+</div>

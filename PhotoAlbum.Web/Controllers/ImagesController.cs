@@ -12,6 +12,7 @@ using AutoMapper;
 using Microsoft.AspNet.Identity;
 using PhotoAlbum.BLL.PagingModels;
 using System.Text.RegularExpressions;
+using PhotoAlbum.Web.Infrastructure;
 
 namespace PhotoAlbum.Web.Controllers
 {
@@ -40,12 +41,12 @@ namespace PhotoAlbum.Web.Controllers
             }
 
             Post result = imageService.GetRecent(uriParameters.PageIndex, uriParameters.ItemsPerPage);
-            PostModel postModel = Mapper.Map<Post, PostModel>(result);
+            ImageViewModelPage postModel = Mapper.Map<Post, ImageViewModelPage>(result);
 
             string currentUserId = HttpContext.Current.User.Identity.GetUserId();
             if (!string.IsNullOrEmpty(currentUserId))
             {
-                postModel.Images.Method(currentUserId);
+                postModel.Images.IsLikedCheck(currentUserId);
             }
 
             return Ok(postModel);
@@ -191,7 +192,10 @@ namespace PhotoAlbum.Web.Controllers
             if (id <= 0)
                 return BadRequest("Invalid image id");
 
-            var tagRegex = model.Tags.All(p => { return Regex.IsMatch(p, @"^\w*$"); });
+            var tagRegex = model.Tags.All(p =>
+            {
+                return Regex.IsMatch(p, @"^\w*$") && p.Length < 20;
+            });
             if (tagRegex == false)
             {
                 return BadRequest("Tag should contain only alphanumeric values and should not contain white spaces");
@@ -201,7 +205,6 @@ namespace PhotoAlbum.Web.Controllers
             {
                 return BadRequest(ModelState);
             }
-
 
             try
             {

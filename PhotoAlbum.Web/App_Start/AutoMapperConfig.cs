@@ -14,17 +14,18 @@ namespace PhotoAlbum.Web
             {
                 cfg.AddProfile(new BusinessLayerMapperConfig());
 
-                cfg.CreateMap<Post, PostModel>();
+                cfg.CreateMap<Post, ImageViewModelPage>();
                 cfg.CreateMap<ImagePost, ImageViewModel>();
                 cfg.CreateMap<TagDTO, TagModel>();
-                cfg.CreateMap<TagModel, TagDTO >();
+                cfg.CreateMap<TagModel, TagDTO>();
 
                 cfg.CreateMap<ImageDTO, ImageModel>();
 
                 cfg.CreateMap<UserDTO, UserModel>();
                 cfg.CreateMap<UserProfilePage, UserProfilePageModel>();
 
-            //    cfg.CreateMap<PagingParameterDTO, PagingParameterDTOModel>();
+                cfg.CreateMap<PagingParameter, PageParameters>()
+                .ForMember(p=>p.TotalItems, opt=>opt.MapFrom(b=>b.TotalItems));
 
             });
 

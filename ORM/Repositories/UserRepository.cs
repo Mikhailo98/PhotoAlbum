@@ -1,11 +1,8 @@
 ﻿using PhotoAlbumCore.Entities;
 using PhotoAlbumCore.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ORM.Repositories
 {
@@ -18,7 +15,7 @@ namespace ORM.Repositories
         }
         #endregion
 
-        public UserProfile GetByUserName(string userName,int pageIndex, int itemsPerPage)
+        public UserProfile GetPagedUserByUsername(string userName, int pageIndex, int itemsPerPage)
         {
             var user = dbSet
                      .Where(p => p.UserName == userName)
@@ -31,13 +28,24 @@ namespace ORM.Repositories
                 return null;
             }
 
-            var sortedImages = user.Images
-                .OrderByDescending(i => i.Created)
-                .Skip((pageIndex - 1) * itemsPerPage)
-                .Take(itemsPerPage).ToList();
+            return new UserProfile()
+            {
+                Id = user.Id,
+                AvatarUrl = user.AvatarUrl,
+                Description = user.Description,
+                Fullname = user.Fullname,
+                Images = SortUserImages(user.Images, pageIndex, itemsPerPage),
+                UserName = user.UserName,
+                Publications = user.Images.Count
+            };
+        }
 
-            user.Images = sortedImages;
-            return user;
+        protected List<Image> SortUserImages(ICollection<Image> images, int pageIndex, int itemsPerPage)
+        {
+            return images
+               .OrderByDescending(i => i.Created)
+               .Skip((pageIndex - 1) * itemsPerPage)
+               .Take(itemsPerPage).ToList();
         }
 
         public UserProfile GetPagedUserProfile(string userid, int pageIndex, int itemsPerPage)
@@ -54,41 +62,21 @@ namespace ORM.Repositories
                 return null;
             }
 
-            var sortedImages = user.Images
-                .OrderByDescending(i => i.Created)
-                .Skip((pageIndex - 1) * itemsPerPage)
-                .Take(itemsPerPage).ToList();
-
-            user.Images = sortedImages;
-            return user;
-
-
+            return new UserProfile()
+            {
+                Id = user.Id,
+                AvatarUrl = user.AvatarUrl,
+                Description = user.Description,
+                Fullname = user.Fullname,
+                Images = SortUserImages(user.Images, pageIndex, itemsPerPage),
+                UserName = user.UserName,
+                Publications = user.Images.Count
+            };
         }
 
         public UserProfile GetUserByUserName(string userName)
         {
             return dbSet.FirstOrDefault(p => p.UserName == userName);
-        }
-
-        public IEnumerable<UserProfile> GetUsersByFullname(string name)
-        {
-
-            return dbSet.Where(p => p.Fullname.Contains(name)).ToList();
-
-        }
-
-        /// <summary>
-        /// Purpose for searching
-        /// </summary>
-        /// <param name="substring"></param>
-        /// <returns></returns>
-        public async Task<List<UserProfile>> GetUsersBySubstingAsync(string substring)
-        {
-            return await dbSet
-                .Where(p => p.UserName.Contains(substring))
-                .Take(5)
-                .ToListAsync();
-
         }
 
     }

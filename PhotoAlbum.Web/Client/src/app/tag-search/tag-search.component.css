@@ -1,0 +1,55 @@
+#search-component {
+    
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+  background: url(https://www.hotelsanmarinoidesign.com/wp-content/uploads/2015/02/header_rocca_1_3-2000x400.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  } 
+ 
+  #search-input{
+    width: 40%;
+    margin: 0 auto;
+    vertical-align: bottom;
+    border-radius: 4px;
+  }
+  #search-box {
+    background-image: url('../icons/searchicon.png');
+    background-position:  10px 12px;
+    background-repeat: no-repeat;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid rgb(67, 67, 68);
+    margin-bottom: 0;
+    border-radius: 5px;
+  }
+  
+  #search-results-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 40%;
+  }
+  
+  #search-results-ul li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #search-results-ul li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+  .postsnumber{
+      float:right
+  }

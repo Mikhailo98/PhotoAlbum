@@ -7,6 +7,7 @@ namespace PhotoAlbum.BLL.PagingModels
     {
         public TagDTO Tag { get; set; }
         public List<ImagePost> Images { get; set; }
+        public PagingParameter Parameters { get; set; }  
     }
 
 }

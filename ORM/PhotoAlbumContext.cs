@@ -22,7 +22,8 @@ namespace ORM
 
         public PhotoAlbumContext(string connection) : base(connection)
         {
-            Database.Log = (s => System.Diagnostics.Debug.WriteLine(s));
+
+
         }
 
 
@@ -36,15 +37,7 @@ namespace ORM
 
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Image>()
-             .HasMany(s => s.Tags)
-             .WithOptional()
-             .Map(m =>
-             {
-                 m.ToTable("ImagesTagsTable");
-             });
-
-
+          
             modelBuilder.Entity<Image>().HasRequired(p => p.User)
              .WithMany()
              .HasForeignKey(p => p.UserId);

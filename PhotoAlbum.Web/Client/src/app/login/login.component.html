@@ -1,0 +1,27 @@
+<div *ngIf="isFromLike">
+  Please Authorize Or Register to like image
+</div>
+<form action="">
+  <div class="registrationContainer">
+    <div class="container register">
+      <h1>Sign In</h1>
+    </div>
+    <div class="container">
+      <label for="User Name">
+        <b>User Name</b>
+      </label>
+      <input type="text" [(ngModel)]="model.username" placeholder="Enter User Name" name="username" required>
+      <label for="psw">
+        <b>Password</b>
+      </label>
+      <input type="password" [(ngModel)]="model.password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" (click)="login()" class="registerbtn">Sing In</button>
+    </div>
+
+    <div class="container signin">
+      <p>Do not have an Account?
+        <a [routerLink]="['/register']">Sign Up</a>.</p>
+    </div>
+  </div>
+</form>

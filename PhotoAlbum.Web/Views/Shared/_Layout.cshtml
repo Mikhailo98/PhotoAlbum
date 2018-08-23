@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("photoX", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -30,70 +30,10 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-
-
-
         <div>
-
             <input type="submit" id="submit" value="Submit" />
             <img src="" id="my_image" alt="Smiley face" height="42" width="42">
-
-
         </div>
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
-
-    @*<script type="text/javascript">
-            $('#submit').click(function () {
-                $('#my_image').attr('src', 'https://www.google.com.ua/imgres?imgurl=https%3A%2F%2Fimage.freepik.com%2Ffree-photo%2Fcute-cat-picture_1122-449.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photo%2Fcute-cat-picture_883395.htm&docid=AO77UMVSgaC-TM&tbnid=5VUdg4JHqBnTiM%3A&vet=10ahUKEwjI-aC2tLPcAhUIMJoKHVjSCzcQMwgzKAEwAQ..i&w=625&h=417&bih=925&biw=1920&q=picture&ved=0ahUKEwjI-aC2tLPcAhUIMJoKHVjSCzcQMwgzKAEwAQ&iact=mrc&uact=8');
-            });
-
-        </script>*@
-
-    @*<script type="text/javascript">
-        $(document).ready(function () {
-            $.ajax({
-                type: 'Get',
-                url: '/api/Images/',
-            }).success(function (data) {
-
-                $.each(data.data, function (k, v) {
-                    /// do stuff
-                });
-
-            }).fail(function (data) {
-                alert("В процесе регистрации возникла ошибка");
-            });
-
-        });
-
-        $(function () {
-            $('#submit').click(function () {
-                var id = 12;
-                $.ajax({
-                    type: "GET",
-                    url: "/api/Images/",
-                    data: { 'id': id }, // sets id value in GET method on ImageController
-                }).success(function (data) {
-                    $('#my_image').attr('src', data.localPath);
-                }).fail(function (data) {
-                    alert('fail');
-
-                });
-            });
-        })
-    </script>*@
-
-
-
-
-
-
-    @*@Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)*@
 </body>
 </html>

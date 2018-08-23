@@ -1,11 +1,8 @@
 ﻿using PhotoAlbumCore.Entities;
 using PhotoAlbumCore.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ORM.Repositories
 {
@@ -13,20 +10,6 @@ namespace ORM.Repositories
     {
         public ImageRepository(PhotoAlbumContext context) : base(context)
         {
-        }
-
-        public IEnumerable<Image> GetUsersImages(string userId, int pageIndex, int itemsperPage)
-        {
-
-            return dbSet
-                   .Where(p => p.UserId == userId)
-                   .Include(p => p.Tags)
-                   .Include(p => p.User)
-                   .OrderByDescending(p => p.Created)
-                   .Skip((pageIndex - 1) * itemsperPage)
-                   .Take(itemsperPage)
-                   .ToList();
-          
         }
 
 
@@ -46,7 +29,6 @@ namespace ORM.Repositories
         {
             return this.ImagesQuantity(null);
         }
-
 
 
 

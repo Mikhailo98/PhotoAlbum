@@ -1,0 +1,12 @@
+.vs/
+
+# SQL Server files
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+
+/node_modules
+
+# Ignore NuGet Packages
+*.nupkg

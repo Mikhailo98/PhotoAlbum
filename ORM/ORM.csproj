@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PhotoAlbumDBInitializer.cs" />
     <Compile Include="Configuration\ImageConfiguration.cs" />
     <Compile Include="Configuration\LikeConfiguration.cs" />
     <Compile Include="Configuration\TagConfiguration.cs" />
     <Compile Include="Configuration\UserConfiguration.cs" />
+    <Compile Include="PhotoAlbumDBInitializer.cs" />
     <Compile Include="Repositories\EFRepository.cs" />
     <Compile Include="EFUnitOfWork.cs" />
     <Compile Include="PhotoAlbumContext.cs" />

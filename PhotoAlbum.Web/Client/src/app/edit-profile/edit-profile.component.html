@@ -1,0 +1,35 @@
+<div class="registrationContainer">
+  <div class="container register">
+    <div class="user_profile">
+      <img class="user_profile-avatar" alt="ELEVATE" width="120" height="120" src="https://cdn.onlinewebfonts.com/svg/img_191958.png">
+    </div>
+    <div style="text-align: center">
+      <input type="file" class="btn" (change)="handleFileInput($event.target.files)">
+    </div>
+    <button type="submit" (click)="SaveAvatar()" class="registerbtn">Save Aatar</button>
+  </div>
+  <div class="container">
+    <!-- <input type="hidden" placeholder="Enter User Name" [(ngModel)]="user.Id"> -->
+    <label for="User Name">
+      <b>User Name</b>
+    </label>
+    <input type="text" [(ngModel)]="user.Username" placeholder="Enter User Name" #searchBox (keyup)="search(searchBox.value)"
+      name="username" required>
+    <span *ngIf="user$ | async">
+      <p style="color: red">User with such name is already exists</p>
+    </span>
+    <label for="email">
+      <b>Firstname</b>
+    </label>
+    <input type="text" placeholder="Enter firstname" [(ngModel)]="user.Firstname" name="firstname" required>
+    <label for="email">
+      <b>Surname</b>
+    </label>
+    <input type="text" placeholder="Enter surname" [(ngModel)]="user.Surname" name="surname" required>
+    <label for="email">
+      <b>Description</b>
+    </label>
+    <input type="text" placeholder="Enter firstname" [(ngModel)]="user.Description" name="firstname">
+    <button [disabled]="user$ | async" type="submit" (click)="Save()" class="registerbtn">Save</button>
+  </div>
+</div>

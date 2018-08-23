@@ -9,7 +9,7 @@ namespace PhotoAlbumCore.Interfaces
 {
     public interface IRepository<TEntity> where TEntity : class
     {
-        TEntity GetById(object id);
+        TEntity Find(object id);
         TEntity Add(TEntity entity);
         void Update(TEntity entity);
         void Delete(TEntity entity);

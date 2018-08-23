@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PhotoAlbumCore.Entities
 {
@@ -17,8 +14,8 @@ namespace PhotoAlbumCore.Entities
         public string ImageName { get; set; }
         public string LocalPath { get; set; }
 
-        public string UserId { get; set; }         //Foreign Key    
-        public virtual UserProfile User { get; set; }  //navigation property
+        public string UserId { get; set; }           
+        public virtual UserProfile User { get; set; }
 
         public virtual ICollection<Like> Likes { get; set; }
         public virtual ICollection<Tag> Tags { get; set; }

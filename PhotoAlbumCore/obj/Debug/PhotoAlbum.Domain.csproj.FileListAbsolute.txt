@@ -27,3 +27,32 @@ C:\Photo Album\Backend\PhotoAlbum\PhotoAlbumCore\obj\Debug\PhotoAlbum.Domain.csp
 C:\Photo Album\Backend\PhotoAlbum\PhotoAlbumCore\obj\Debug\PhotoAlbum.Domain.csproj.CopyComplete
 C:\Photo Album\Backend\PhotoAlbum\PhotoAlbumCore\obj\Debug\PhotoAlbumCore.dll
 C:\Photo Album\Backend\PhotoAlbum\PhotoAlbumCore\obj\Debug\PhotoAlbumCore.pdb
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\PhotoAlbumCore.dll.config
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\PhotoAlbumCore.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\PhotoAlbumCore.pdb
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\EntityFramework.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\EntityFramework.SqlServer.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Newtonsoft.Json.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Owin.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\EntityFramework.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\EntityFramework.SqlServer.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\bin\Debug\Newtonsoft.Json.xml
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\obj\Debug\PhotoAlbum.Domain.csproj.CoreCompileInputs.cache
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\obj\Debug\PhotoAlbum.Domain.csproj.CopyComplete
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\obj\Debug\PhotoAlbumCore.dll
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\obj\Debug\PhotoAlbumCore.pdb
+C:\PhotoAlbum with angular\New\PhotoAlbumCore\obj\Debug\PhotoAlbum.Domain.csprojAssemblyReference.cache

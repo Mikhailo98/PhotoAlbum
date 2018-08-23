@@ -1,0 +1,28 @@
+<div class="navigation">
+  <ul>
+    <li>
+      <a class="title" href="">photoX</a>
+    </li>
+
+    <li *ngIf="islogin == true;then logout else login" style="float: right;margin: 15px 15px;">
+    </li>
+    <ng-template #logout>
+      <span style="float: right;margin: 15px 15px;">
+        <li>
+          <button class="btn" [routerLink]="profilePage">My Profile</button>
+        </li>
+        <li>
+          <button class="btn" routerLink="/logout">Logout</button>
+        </li>
+      </span>
+    </ng-template>
+    <ng-template #login>
+      <li style="float: right;margin: 15px 15px;">
+        <button class="btn" routerLink="/login">Login</button>
+      </li>
+    </ng-template>
+  </ul>
+</div>
+<div class="app-content">
+  <router-outlet></router-outlet>
+</div>

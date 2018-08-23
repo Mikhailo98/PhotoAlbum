@@ -4,7 +4,6 @@ using PhotoAlbum.BLL.Interface;
 using PhotoAlbum.BLL.PagingModels;
 using PhotoAlbum.Web.Models;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -12,26 +11,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using PhotoAlbum.Web.Infrastructure;
+
 
 namespace PhotoAlbum.Web.Controllers
 {
-
-    public static class myClass {
-
-        public static List<ImageViewModel> Method(this List<ImageViewModel> images, string currentUserId)
-        {
-            foreach (var item in images)
-            {
-                if (item.Likes.Any(p => p.UserId == currentUserId))
-                {
-                    item.Image.IsLiked = true;
-                }
-            }
-
-            return images;
-        }
-    }
-
 
     [RoutePrefix("api/users")]
     public class UsersController : ApiController
@@ -42,7 +26,7 @@ namespace PhotoAlbum.Web.Controllers
         {
             this.userService = userService;
         }
-        
+
 
 
         /// <summary>
@@ -56,7 +40,7 @@ namespace PhotoAlbum.Web.Controllers
         public IHttpActionResult GetUserPage(string userId, [FromUri]UriParameters uriParam)
         {
 
-            var page = new PagingParameterDTO()
+            var page = new PagingParameter()
             {
                 ItemsPerPage = uriParam.ItemsPerPage,
                 PageIndex = uriParam.PageIndex
@@ -64,14 +48,19 @@ namespace PhotoAlbum.Web.Controllers
 
             try
             {
-                var profile = userService.GetByUserPage(userId, page);
+                var profile = userService.GetProfileByUserId(userId, page);
                 var profileModel = Mapper.Map<UserProfilePageModel>(profile);
 
-                string currentUserId = HttpContext.Current.User.Identity.GetUserId();
+                string requestUser = HttpContext.Current.User.Identity.GetUserId();
 
-                if (!string.IsNullOrEmpty(currentUserId))
+                if (!string.IsNullOrEmpty(requestUser))
                 {
-                    profileModel.Images.Method(currentUserId);
+                    profileModel.Images.IsLikedCheck(requestUser);
+
+                    if (profileModel.User.Id == requestUser)
+                    {
+                        profileModel.IsOwnProfile = true;
+                    }
                 }
 
                 return Ok(profileModel);
@@ -82,12 +71,12 @@ namespace PhotoAlbum.Web.Controllers
             }
         }
 
-     
+
 
 
 
         /// <summary>
-        /// Returns userProfile (like instagram.com/mike_kovalchuk)
+        /// Returns userProfile 
         /// </summary>
         /// <param name="userName"></param>
         /// <param name="parameterModel"></param>
@@ -97,7 +86,7 @@ namespace PhotoAlbum.Web.Controllers
         public IHttpActionResult GetUserByName(string userName, [FromUri]UriParameters uriParam)
         {
 
-            var page = new PagingParameterDTO()
+            var page = new PagingParameter()
             {
                 ItemsPerPage = uriParam.ItemsPerPage,
                 PageIndex = uriParam.PageIndex
@@ -105,21 +94,15 @@ namespace PhotoAlbum.Web.Controllers
 
             try
             {
-                var profile = userService.GetByUserNamePage(userName, page);
+                var profile = userService.GetProfileByUsername(userName, page);
                 var profileModel = Mapper.Map<UserProfilePageModel>(profile);
 
-                string userWhoRequested = HttpContext.Current.User.Identity.GetUserId();
-                if (!string.IsNullOrEmpty(userWhoRequested))
+                string requestUser = HttpContext.Current.User.Identity.GetUserId();
+                if (!string.IsNullOrEmpty(requestUser))
                 {
-                    foreach (var item in profileModel.Images)
-                    {
-                        if (item.Likes.Any(p => p.UserId == userWhoRequested))
-                        {
-                            item.Image.IsLiked = true;
-                        }
-                    }
+                    profileModel.Images.IsLikedCheck(requestUser);
 
-                    if (profileModel.User.Id == userWhoRequested)
+                    if (profileModel.User.Id == requestUser)
                     {
                         profileModel.IsOwnProfile = true;
                     }
@@ -136,21 +119,21 @@ namespace PhotoAlbum.Web.Controllers
 
         [HttpGet]
         [Route("{userName}/check")]
-        public async Task<bool> CheckUserWithUserName(string userName)
+        public async Task<IHttpActionResult> CheckUserWithUserName(string userName)
         {
             try
             {
-                var check = await userService.UserExists(userName);
-                return check;
+                var check = await userService.IfUserNameExists(userName);
+                return Ok(check);
             }
             catch (Exception ex)
             {
-                throw ex;
+                return BadRequest(ex.Message);
             }
         }
 
 
-     
+
 
         [HttpPatch]
         [Authorize]
@@ -168,24 +151,23 @@ namespace PhotoAlbum.Web.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.Forbidden, ModelState);
             }
 
-            var d = new UpdateUserInfoBLL
+            var userInfo = new UpdateUserInfoDTO
             {
                 Username = model.Username,
                 Description = model.Description,
                 FullName = model.Firstname + " " + model.Surname
             };
+
             try
             {
-                userService.UpdateUserInfo(id, d);
+                userService.UpdateUserInfo(id, userInfo);
             }
             catch (Exception ex)
             {
-
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
 
             return Request.CreateErrorResponse(HttpStatusCode.OK, "User was updated!");
-            
         }
 
 
@@ -196,14 +178,14 @@ namespace PhotoAlbum.Web.Controllers
             try
             {
                 var profile = userService.GetUsersInfo(username);
-                var profileModel = new UpdateUserModel {
+                var profileModel = new UpdateUserModel
+                {
                     Id = profile.Id,
                     Description = profile.Description,
                     Firstname = profile.Fullname.Split(' ').First(),
                     Surname = profile.Fullname.Split(' ').Last(),
                     Username = profile.Username
                 };
-
 
                 return Ok(profileModel);
             }
@@ -242,14 +224,14 @@ namespace PhotoAlbum.Web.Controllers
             // Make sure the file has content
             if (!(file.ContentLength > 0))
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "File is empty");
-            
+
 
             byte[] avatar = null;
             using (var binaryReader = new BinaryReader(file.InputStream))
             {
-                avatar= binaryReader.ReadBytes(file.ContentLength);
+                avatar = binaryReader.ReadBytes(file.ContentLength);
             }
-            
+
             try
             {
                 userService.UpdateUserAvatar(avatar, file.FileName, currentUserId);
@@ -259,8 +241,7 @@ namespace PhotoAlbum.Web.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
 
-
-            return Request.CreateResponse(HttpStatusCode.OK, "Avatar was changed!" );
+            return Request.CreateResponse(HttpStatusCode.OK, "Avatar was changed!");
         }
 
 
@@ -297,13 +278,8 @@ namespace PhotoAlbum.Web.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
 
-
             return Request.CreateErrorResponse(HttpStatusCode.OK, "User was deleted");
-
         }
-
-
-
-
+        
     }
 }

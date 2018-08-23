@@ -1,0 +1,50 @@
+<div class="registrationContainer">
+    <div class="container register">
+        <h1>Register</h1>
+    </div>
+    <div class="container">
+        <p>Please fill in this form to create an account.</p>
+        <label for="User Name">
+            <b>User Name</b>
+        </label>
+        <input type="text" placeholder="Enter User Name" #searchBox (keyup)="search(searchBox.value)" [(ngModel)]="model.UserName" name="username" required>
+        <span  *ngIf="user$ | async">
+            <p style="color: red">name is already booked</p>
+        </span>
+        <label for="email">
+            <b>Email</b>
+        </label>
+        <input type="text" placeholder="Enter Email" [(ngModel)]="model.Email" name="email" required>
+        <label for="email">
+            <b>Firstname</b>
+        </label>
+        <input type="text" placeholder="Enter firstname" [(ngModel)]="model.FirstName" name="firstname" required>
+        <label for="email">
+            <b>Surname</b>
+        </label>
+        <input type="text" placeholder="Enter surname" [(ngModel)]="model.Surname" name="surname" required>
+        <label for="email">
+            <b>Phone number</b>
+        </label>
+        <input type="text" placeholder="Enter phone number(optional)" [(ngModel)]="model.PhoneNumber" name="phonenumber">
+        <label for="psw">
+            <b>Password</b>
+        </label>
+        <input type="password" placeholder="Enter Password" [(ngModel)]="model.Password" name="psw" required>
+
+        <label for="psw-repeat">
+            <b>Confirm Password</b>
+        </label>
+            <input type="password" placeholder="Repeat Password" [(ngModel)]="model.ConfirmPassword" name="psw-repeat" required>
+        <hr>
+        <p>By creating an account you agree to our
+            <a href="#">Terms & Privacy</a>.</p>
+
+        <button [disabled]="user$ | async" type="submit"  (click)="register()" class="registerbtn">Register</button>
+    </div>
+
+    <div class="container signin">
+        <p>Already have an account?
+            <a [routerLink]="['/login']">Sign in</a>.</p>
+    </div>
+</div>

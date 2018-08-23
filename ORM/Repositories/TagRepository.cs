@@ -1,9 +1,7 @@
 ﻿using PhotoAlbumCore.Entities;
 using PhotoAlbumCore.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
@@ -15,38 +13,6 @@ namespace ORM.Repositories
         {
         }
 
-        public IEnumerable<Image> GetImagesByTagName(string tagName)
-        {
-            return dbSet
-                .FirstOrDefault(p => p.Description == tagName)?
-                .Images
-                .ToList();
-        }
-
-        public Tag GetTagByTagName(string tagName,
-            int pageIndex, int itemsPerPage)
-        {
-            IQueryable<Tag> query = dbSet.AsQueryable();
-
-
-            //find the tag and include image collection
-            query.Where(p => p.Description == tagName)
-               .Include(p => p.Images)
-               .Skip((pageIndex - 1) * itemsPerPage)
-               .Take(itemsPerPage);
-
-            return dbSet.FirstOrDefault();
-
-        }
-
-        public Tag GetTag(int tagId)
-        {
-
-            return dbSet
-                .FirstOrDefault(p => p.Id == tagId);
-
-        }
-        
 
 
         /// <summary>
@@ -57,8 +23,7 @@ namespace ORM.Repositories
         /// <param name="pageIndex"></param>
         /// <param name="itemsPerPage"></param>
         /// <returns></returns>
-        public Tag GetTagWithRecentImages(int tagId,
-              int pageIndex, int itemsPerPage)
+        public Tag GetTagWithRecentImages(int tagId, int pageIndex, int itemsPerPage)
         {
             var tag = dbSet
             .Where(p => p.Id == tagId)
@@ -72,46 +37,70 @@ namespace ORM.Repositories
                 return null;
             }
 
-            var sortedImages = tag.Images
-                .OrderByDescending(i => i.Created)
-                .Skip((pageIndex - 1) * itemsPerPage)
-                .Take(itemsPerPage).ToList();
-
-            tag.Images = sortedImages;
-            return tag;
+            return new Tag()
+            {
+                Id = tag.Id,
+                Images = SortImages(tag.Images, pageIndex, itemsPerPage),
+                ImagesCount = tag.Images.Count,
+                Description = tag.Description
+            };
 
         }
 
         public Tag GetTagWithRecentImages(string tagName, int pageIndex, int itemsPerPage)
         {
-            var tag = dbSet.FirstOrDefault(p => p.Description == tagName);
+
+            var tag = dbSet
+                      .Where(p => p.Description == tagName)
+                      .Include(p => p.Images)
+                      .Include(p => p.Images.Select(m => m.User))
+                      .Include(p => p.Images.Select(m => m.Tags))
+                      .FirstOrDefault();
+
             if (tag == null)
             {
                 return null;
             }
-            return GetTagWithRecentImages(tag.Id, pageIndex, itemsPerPage);
 
+            return new Tag()
+            {
+                Id = tag.Id,
+                Images = SortImages(tag.Images, pageIndex, itemsPerPage),
+                ImagesCount = tag.Images.Count,
+                Description = tag.Description
+            };
         }
 
-
+        protected List<Image> SortImages(ICollection<Image> images, int pageIndex, int itemsPerPage)
+        {
+            return images
+               .OrderByDescending(i => i.Created)
+               .Skip((pageIndex - 1) * itemsPerPage)
+               .Take(itemsPerPage).ToList();
+        }
 
 
         public Tag GetTag(string name)
         {
             return dbSet
                 .FirstOrDefault(p => p.Description == name);
-
         }
 
         public async Task<List<Tag>> GetTagsBySubstringAsync(string substring)
         {
-            return await dbSet
+            var newList = await dbSet
                          .Where(p => p.Description.Contains(substring))
                          .Take(5)
+                         //.Include(p => p.Images)
                          .ToListAsync();
 
+            return newList.Select(p => new Tag()
+            {
+                Id = p.Id,
+                Description = p.Description,
+                ImagesCount = p.Images.Count
+            }).ToList();
+
         }
-
-
     }
 }

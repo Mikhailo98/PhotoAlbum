@@ -93,11 +93,14 @@
     <Compile Include="Interface\ITagService.cs" />
     <Compile Include="Interface\IUserService.cs" />
     <Compile Include="DTOs\ImageDTO.cs" />
+    <Compile Include="PagingModels\ImagePost.cs" />
     <Compile Include="PagingModels\ImagesPaging.cs" />
+    <Compile Include="DTOs\LikeDTO.cs" />
     <Compile Include="PagingModels\PagingParameter.cs" />
     <Compile Include="DTOs\TagDTO.cs" />
+    <Compile Include="PagingModels\Post.cs" />
     <Compile Include="PagingModels\TagPage.cs" />
-    <Compile Include="PagingModels\UpdateUserInfoBLL.cs" />
+    <Compile Include="DTOs\UpdateUserInfoDTO.cs" />
     <Compile Include="PagingModels\UploadedImage.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="PagingModels\UserProfilePage.cs" />

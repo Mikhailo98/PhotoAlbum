@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PhotoAlbum.BLL.PagingModels
 {
-    public class PagingParameterDTO
+    public class PagingParameter
     {
         public int PageIndex { get; set; }
         public int ItemsPerPage { get; set; }

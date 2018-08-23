@@ -11,7 +11,7 @@ namespace PhotoAlbum.Web.App_Start
         public static void Register()
         {
             PhysicalDirectory.CurrentServerLocation = HttpContext.Current.Server.MapPath("~/");
-            PhysicalDirectory.ImagesStoreFolder = "photosx";
+            PhysicalDirectory.ImagesStoreFolder = "photos";
             PhysicalDirectory.EnsureFolderExists();
         }
 

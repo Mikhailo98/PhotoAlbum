@@ -1,14 +1,16 @@
 ﻿using AutoMapper;
-using PhotoAlbum.BLL.DTOs;
+using Microsoft.AspNet.Identity;
 using PhotoAlbum.BLL.Interface;
-using PhotoAlbum.BLL.PagingModels;
 using PhotoAlbum.Web.Models;
 using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
-using System.Threading.Tasks;
+using System.Web;
 using System.Web.Http;
+using PhotoAlbum.Web.Infrastructure;
+using System.Collections.Generic;
+using PhotoAlbum.BLL.DTOs;
+using System.Threading.Tasks;
 
 namespace PhotoAlbum.Web.Controllers
 {
@@ -25,23 +27,31 @@ namespace PhotoAlbum.Web.Controllers
 
 
         /// <summary>
-        /// Gets Recent Images With Particular Tag
+        /// Gets Recent Images With Particular Tag Id
         /// </summary>
         /// <param name="search"></param>
         /// <param name="uriParameters"></param>
         /// <returns></returns>
         // GET: api/Tags
-        [Route("{id:int:min(0)}/images/recent")]
+        [Route("{tagId:int:min(0)}/images/recent")]
         [HttpGet]
-        public IHttpActionResult GetRecentImagesByTagId(int id, [FromUri]UriParameters uriParameters)
+        public IHttpActionResult GetRecentImagesByTagId(int tagId, [FromUri]UriParameters uriParameters)
         {
 
             try
             {
-                var result = tagService.GetTagWithImages
-                    (id, uriParameters.PageIndex, uriParameters.ItemsPerPage);             
+                var tags = tagService.GetTagWithImages
+                    (tagId, uriParameters.PageIndex, uriParameters.ItemsPerPage);
 
-                return Ok(result);
+                var profileModel = Mapper.Map<TagViewModel>(tags);
+
+                string requestUser = HttpContext.Current.User.Identity.GetUserId();
+                if (!string.IsNullOrEmpty(requestUser))
+                {
+                    profileModel.Images.IsLikedCheck(requestUser);
+                }
+
+                return Ok(profileModel);
             }
             catch (Exception ex)
             {
@@ -57,15 +67,13 @@ namespace PhotoAlbum.Web.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("{substring}/search")]
-        public async Task<IHttpActionResult>  GetTagsListBySubstring(string substring)
+        public async Task<IHttpActionResult> GetTagsListBySubstring(string substring)
         {
-
             try
             {
-                var result = await tagService.GetTagsList(substring);
-                List<TagModel> tagModels = Mapper.Map<List<TagModel>>(result);
-
-                return Ok(result);
+                var result =  tagService.GetTagsList(substring);
+                List<TagModel> tagModels = Mapper.Map<List<TagModel>>(await result);
+                return Ok(tagModels);
             }
             catch (Exception ex)
             {
@@ -74,17 +82,30 @@ namespace PhotoAlbum.Web.Controllers
         }
 
 
-        ///invalid 
-        ///try to move to tagsController or smth else
-        [Route("{tag}/images")]
-        public IHttpActionResult GetImagesByTag(string tag, [FromUri]PageParameters pagingParameterModel)
+        /// <summary>
+        /// Gets images with particular tag name
+        /// </summary>
+        /// <param name="tag"></param>
+        /// <param name="parameters"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("name/{tag}/images")]
+        public IHttpActionResult GetImagesByTag(string tag, [FromUri]UriParameters parameters)
         {
             try
             {
-                var result = tagService.GetTagWithImages(tag,
-               pagingParameterModel.PageIndex, pagingParameterModel.ItemsPerPage);
+                var tags = tagService.GetTagWithImages(tag,
+               parameters.PageIndex, parameters.ItemsPerPage);
 
-                return Ok(result);
+                var profileModel = Mapper.Map<TagViewModel>(tags);
+
+                string requestUser = HttpContext.Current.User.Identity.GetUserId();
+                if (!string.IsNullOrEmpty(requestUser))
+                {
+                    profileModel.Images.IsLikedCheck(requestUser);
+                }
+
+                return Ok(profileModel);
             }
             catch (Exception ex)
             {
@@ -105,7 +126,6 @@ namespace PhotoAlbum.Web.Controllers
 
             try
             {
-
                 var tag = Mapper.Map<TagDTO>(tagModel);
 
                 if (tagModel.Id == 0)
@@ -144,7 +164,6 @@ namespace PhotoAlbum.Web.Controllers
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
-
         }
     }
 }

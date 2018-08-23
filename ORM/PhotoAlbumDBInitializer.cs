@@ -84,6 +84,8 @@ namespace ORM
                 UserName = applicationUser1.UserName,
                 Id = applicationUser1.Id,
                 Fullname = "Firstname Surname",
+                AvatarUrl = "\\photos\\61e852831fb1bbd9027b243414f37786.png",
+                ApplicationUser = applicationUser1
             };
 
             var user2 = new UserProfile()
@@ -91,6 +93,8 @@ namespace ORM
                 UserName = applicationUser2.UserName,
                 Id = applicationUser2.Id,
                 Fullname = "Firstname Surname",
+                AvatarUrl = "\\photos\\61e852831fb1bbd9027b243414f37786.png",
+                ApplicationUser = applicationUser2
 
             };
 
@@ -99,12 +103,14 @@ namespace ORM
                 UserName = applicationUser3.UserName,
                 Id = applicationUser3.Id,
                 Fullname = "Firstname Surname",
+                AvatarUrl = "\\photos\\61e852831fb1bbd9027b243414f37786.png",
+                ApplicationUser = applicationUser3
             };
 
 
 
            string physicalServerPath =
-            HttpContext.Current.Server.MapPath("~/photosx/");
+            HttpContext.Current.Server.MapPath("~/photos/");
 
            string User1Folder =
                Path.Combine(physicalServerPath, user1.Id);
@@ -121,22 +127,46 @@ namespace ORM
 
 
 
-            var image1 = new Image() { LocalPath = "\\phorosx\\" +  user1.Id + "\\clouds-conifers-desktop-wallpaper-707344.jpg", User = user1, Tags = { tag3 } };
-            var image11 = new Image() { LocalPath = "\\phorosx\\" + user1.Id + "\\adult-alone-bike-helmet-1245618.jpg", User = user1, Tags = { tag4, tag5 }, };
-            var image111 = new Image() { LocalPath = "\\phorosx\\" + user1.Id + "\\azores-daylight-guy-1247933.jpg", User = user1, Tags = { tag2, tag5 } };
+            var image1 = new Image() { LocalPath = "\\photos\\" +  user1.Id + "\\clouds-conifers-desktop-wallpaper-707344.jpg", User = user1, Tags = { tag3 } };
+            var image11 = new Image() { LocalPath = "\\photos\\" + user1.Id + "\\adult-alone-bike-helmet-1245618.jpg", User = user1, Tags = { tag4, tag5 }, };
+            var image111 = new Image() { LocalPath = "\\assets\\" + user1.Id + "\\azores-daylight-guy-1247933.jpg", User = user1, Tags = { tag2, tag5 } };
 
 
-            var image2 = new Image() { LocalPath = "\\phorosx\\" + user2.Id + "\\animal-avian-bird-1247512.jpg", User = user2 };
-            var image22 = new Image() { LocalPath = "\\phorosx\\" + user2.Id + "\\ball-shaped-blurred-background-close-up-1098518.jpg", User = user2 };
+            var image2 = new Image() { LocalPath = "\\photos\\" + user2.Id + "\\animal-avian-bird-1247512.jpg", User = user2 };
+            var image22 = new Image() { LocalPath = "\\photos\\" + user2.Id + "\\ball-shaped-blurred-background-close-up-1098518.jpg", User = user2 };
 
 
-            var image3 = new Image() { LocalPath = "\\phorosx\\" + user3.Id + "\\applause-arena-audience-761543.jpg", User = user3 };
-            var image33 = new Image() { LocalPath = "\\phorosx\\" + user3.Id + "\\cold-environment-fog-776390.jpg", User = user3, Tags = { tag3 } };
-            var image333 = new Image() { LocalPath = "\\phorosx\\" + user3.Id + "\\asphalt-car-classic-253096.jpg", User = user3, Tags = { tag1, tag6 } };
-            var image3333 = new Image() { LocalPath = "\\phorosx\\" + user3.Id + "\\beach-horizon-island-1030903.jpg", User = user3, Tags = { tag2 } };
-            var image33333 = new Image() { LocalPath = "\\phorosx\\" + user3.Id + "\\automobile-automotive-autumn-1200458.jpg", User = user3, Tags = { tag1, tag6 } };
-            
-            
+            var image3 = new Image() { LocalPath = "\\photos\\" + user3.Id + "\\applause-arena-audience-761543.jpg", User = user3 };
+            var image33 = new Image() { LocalPath = "\\photos\\" + user3.Id + "\\cold-environment-fog-776390.jpg", User = user3, Tags = { tag3 } };
+            var image333 = new Image() { LocalPath = "\\photos\\" + user3.Id + "\\asphalt-car-classic-253096.jpg", User = user3, Tags = { tag1, tag6 } };
+            var image3333 = new Image() { LocalPath = "\\photos\\" + user3.Id + "\\beach-horizon-island-1030903.jpg", User = user3, Tags = { tag2 } };
+            var image33333 = new Image() { LocalPath = "\\photos\\" + user3.Id + "\\automobile-automotive-autumn-1200458.jpg", User = user3, Tags = { tag1, tag6 } };
+
+
+            tag1.Images.Add(image333);
+            tag1.Images.Add(image33333);
+
+
+            tag2.Images.Add(image3333);
+            tag2.Images.Add(image111);
+
+
+            tag3.Images.Add(image33);
+            tag3.Images.Add(image1);
+
+
+            tag4.Images.Add(image11);
+
+
+            tag5.Images.Add(image11);
+            tag3.Images.Add(image111);
+
+            tag6.Images.Add(image333);
+            tag6.Images.Add(image33333);
+
+
+
+
             context.Images.AddRange(new List<Image>()
             {
                 image1, image11, image111,

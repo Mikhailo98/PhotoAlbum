@@ -1,0 +1,39 @@
+<h1>Found by: {{FoundTag.Description}}</h1>
+<div class="cards" style="text-align: center;">
+  <div *ngFor="let image of images" class="card">
+
+    <div class="userinfo" (click)="userSearch()">
+      <img class="userAvatar" alt="ELEVATE" width="120" height="120" [src]="image.Image.UserAvalarUrl">
+      <p (click)="onUserClick(image.Image.UserName)"><strong>{{image.Image.UserName}}</strong></p>
+    </div>
+    <hr>
+    <div style="width: 100%;height: 300px;overflow: hidden;">
+
+      <img [src]="image.Image.LocalPath" alt="Sample photo" style="object-fit: cover;width: 100%;height: 100%;">
+    </div>
+    <div class="imageInfo">
+      <span class="likesCount">
+        <strong>  {{image.Image.NumberOfLikes}} Likes</strong>
+      </span>
+      <div *ngIf="image.Image.IsLiked == true;then content else othercontent">here is ignored</div>
+      <ng-template #content>
+        <i class="fas fa-heart" style="color: red;  " (click)="onLikeClick(image.Image, image.Image.Id)"></i>
+      </ng-template>
+      <ng-template #othercontent>
+        <i class="far fa-heart" (click)="onLikeClick(image.Image,image.Image.Id)"></i>
+      </ng-template>
+    </div>
+    <div class="text">
+      <p>{{image.Image.Description}}</p>
+      <div>
+        <ul id="ul_image_tags">
+          <li *ngFor="let tag of image.Tags">
+            <a class="a_top_hypers">{{tag.Description}}</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="text-align: center">
+  <button type="button" class="load-btn" (click)="onLoadClick()">Load More</button>
+</div>

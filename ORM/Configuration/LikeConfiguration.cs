@@ -9,9 +9,6 @@ namespace ORM.Configuration
         {
             this.HasKey(p => p.Id);
 
-            //this.Property(p => p.ImageId)
-            // .IsRequired();
-
             this.Property(u => u.UserId)
                 .IsRequired();
         }

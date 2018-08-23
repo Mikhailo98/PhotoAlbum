@@ -44,7 +44,7 @@ namespace PhotoAlbum.BLL.Services
         public void UpdateTag(TagDTO updateTag)
         {
 
-            var tag = Database.TagRepository.GetById(updateTag.Id);
+            var tag = Database.TagRepository.Find(updateTag.Id);
             if (tag == null)
             {
                 throw new ArgumentException("Invalid tags' id");
@@ -62,7 +62,7 @@ namespace PhotoAlbum.BLL.Services
 
         public void DeleteTag(int id)
         {
-            var tag = Database.TagRepository.GetById(id);
+            var tag = Database.TagRepository.Find(id);
             if (tag == null)
             {
                 throw new ArgumentException("Invalid tags' id");
@@ -81,31 +81,39 @@ namespace PhotoAlbum.BLL.Services
                 return null;
             }
 
-            var result = await ((ITagRepository)Database.TagRepository).GetTagsBySubstringAsync(substring);
-            var dtoresult = Mapper.Map<List<TagDTO>>(result);
+            var result = ((ITagRepository)Database.TagRepository).GetTagsBySubstringAsync(substring);
+            var dtoresult = Mapper.Map<List<TagDTO>>(await result);
+
             return dtoresult;
         }
 
         public TagPage GetTagWithImages(int tagId, int pageIndex, int itemsPerPage)
         {
 
-
-            var result = ((ITagRepository)Database.TagRepository)
+            var returnedTag = ((ITagRepository)Database.TagRepository)
                 .GetTagWithRecentImages(tagId, pageIndex, itemsPerPage);
 
-            var t = Mapper.Map<TagDTO>(result);
-
-
-            var tagdto = Mapper.Map<TagDTO>(result);
-            var imagedto = Mapper.Map<List<ImagePost>>(result.Images);
-
-            var r = new TagPage()
+            if (returnedTag == null)
             {
-                Tag = tagdto,
-                Images = imagedto
-            };
+                throw new ArgumentException("Invalid tag ID");
+            }
 
-            return r;
+
+            var tagDto = Mapper.Map<TagDTO>(returnedTag);
+            var imagesDto = Mapper.Map<List<ImagePost>>(returnedTag.Images);
+
+            var tagPage = new TagPage()
+            {
+                Tag = tagDto,
+                Images = imagesDto,
+                Parameters = new PagingParameter()
+                {
+                    ItemsPerPage = itemsPerPage,
+                    PageIndex = pageIndex,
+                    TotalItems = tagDto.ImagesCount
+                }
+            };
+            return tagPage;
         }
 
 
@@ -113,22 +121,33 @@ namespace PhotoAlbum.BLL.Services
         public TagPage GetTagWithImages(string tag, int pageIndex, int itemsPerPage)
         {
 
-            var result = ((ITagRepository)Database.TagRepository)
+            var returnedTag = ((ITagRepository)Database.TagRepository)
                            .GetTagWithRecentImages(tag, pageIndex, itemsPerPage);
-
-            var t = Mapper.Map<TagDTO>(result);
-
-
-            var tagdto = Mapper.Map<TagDTO>(result);
-            var imagedto = Mapper.Map<List<ImagePost>>(result.Images);
-
-            var r = new TagPage()
+            if (returnedTag == null)
             {
-                Tag = tagdto,
-                Images = imagedto
+                throw new ArgumentException("Invalid tag name");
+            }
+
+
+            var tagResult = Mapper.Map<TagDTO>(returnedTag);
+
+
+            var tagDto = Mapper.Map<TagDTO>(returnedTag);
+            var imagesDto = Mapper.Map<List<ImagePost>>(returnedTag.Images);
+
+            var tagPage = new TagPage()
+            {
+                Tag = tagDto,
+                Images = imagesDto,
+                Parameters = new PagingParameter()
+                {
+                    ItemsPerPage = itemsPerPage,
+                    PageIndex = pageIndex,
+                    TotalItems = tagDto.ImagesCount
+                }
             };
 
-            return r;
+            return tagPage;
         }
     }
 }

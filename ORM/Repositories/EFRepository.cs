@@ -1,12 +1,8 @@
 ﻿
 using PhotoAlbumCore.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace ORM.Repositories
@@ -23,7 +19,7 @@ namespace ORM.Repositories
             dbSet = context.Set<TEntity>();
         }
 
-        public virtual TEntity GetById(object id)
+        public virtual TEntity Find(object id)
         {
             return dbSet.Find(id);
         }

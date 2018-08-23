@@ -21,7 +21,16 @@ namespace PhotoAlbum.Web
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/client/js").Include(
+                     "~/Scripts/client/runtime.js",
+                     "~/Scripts/client/polyfills.js",
+                     "~/Scripts/client/styles.js",
+                     "~/Scripts/client/vendor.js",
+                     "~/Scripts/client/main.js"));
+
+
         }
     }
 }

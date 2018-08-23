@@ -1,19 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using PhotoAlbum.BLL.Interface;
-using PhotoAlbum.BLL.Services;
-using PhotoAlbum.Web.Models;
-using System.Web.Http.Dependencies;
 
 namespace PhotoAlbum.Web.Providers
 {

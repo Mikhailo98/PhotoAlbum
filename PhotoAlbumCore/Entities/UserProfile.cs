@@ -17,6 +17,9 @@ namespace PhotoAlbumCore.Entities
         public virtual ICollection<Image> Images { get; set; }
         public virtual ApplicationUser ApplicationUser { get; set; }
 
+        [NotMapped]
+        public int Publications { get; set; }
+        
         public UserProfile()
         {
             Images = new List<Image>();

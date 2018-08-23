@@ -1,0 +1,173 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0px auto;
+  }
+  .user_profile{
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+    /* align-items: center; */
+    width: 100%;
+  }
+  .user_profile-info{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: left;
+
+  }
+
+  .user_profile-avatar {
+    display: inline-block;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 10px 10px ;
+    background: #eee;
+  }
+  
+  .card {
+    flex: 0 0 450px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  
+  .card .text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* display information basic info of user above the image */
+  
+  .userinfo {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  #div_top_hypers {
+    display: flex;
+    align-content: center;
+    padding: 0;
+  }
+  
+  #ul_image_tags {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #ul_image_tags li {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #ul_image_tags li a {
+    margin-left: 10px;
+  }
+  
+  .imageInfo {
+    display: block;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .likesCount {
+    float: left;
+  }
+  
+  /*.toLikebtn {
+    float: right;
+    background-image: url(../icons/notliked.png)
+    style="font-size:24px;"
+  }*/
+  
+  /* Pagination */
+  
+  .center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .far, .fas {
+    font-size: 30px;
+  }
+  
+
+  
+  .fa-heart {
+    float: right;
+    color: black;
+  }
+
+
+  .user_profile-info-desctription {
+    font-size: 14px;
+
+}
+
+.user_profile-stats {
+    vertical-align: middle;
+    width: 400px;
+    font-size: 14px;
+    text-align: right;
+    display: inline-block;
+text-align: center;
+}
+
+.fact-box__fact {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fact-box__title {
+    display: block;
+    margin-top: -2px;
+    font-size: 20px;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  background: black ;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  margin: 10px;
+  display: block;
+  width: 120px;
+
+}
+.delete-btn
+{
+  padding: 10px;
+  border: 0;
+  background: brown; 
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 10px;
+}

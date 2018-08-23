@@ -1,13 +1,5 @@
-﻿using PhotoAlbum.BLL.DTOs;
-using PhotoAlbum.BLL.PagingModels;
-using PhotoAlbumCore.Entities;
-using System;
+﻿using PhotoAlbum.BLL.PagingModels;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
 
 namespace PhotoAlbum.BLL.Interface
 

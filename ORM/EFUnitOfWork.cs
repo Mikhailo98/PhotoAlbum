@@ -90,16 +90,12 @@ namespace ORM
             {
                 if (userManager == null)
                 {
-                    userManager = new ApplicationUserManager
-                        (new UserStore<ApplicationUser>(context));
-                    // Configure validation logic for usernames
-                    userManager.UserValidator =
-                        new UserValidator<ApplicationUser>(userManager)
-                        {
-                            AllowOnlyAlphanumericUserNames = false,
-                            RequireUniqueEmail = true
-                        };
-                    // Configure validation logic for passwords
+                    userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+                    userManager.UserValidator = new UserValidator<ApplicationUser>(userManager)
+                    {
+                        AllowOnlyAlphanumericUserNames = false,
+                        RequireUniqueEmail = true
+                    };
                     userManager.PasswordValidator = new PasswordValidator
                     {
                         RequiredLength = 6,
@@ -118,8 +114,7 @@ namespace ORM
             get
             {
                 if (roleManager == null)
-                    roleManager = new ApplicationRoleManager
-                        (new RoleStore<ApplicationRole>(context));
+                    roleManager = new ApplicationRoleManager(new RoleStore<ApplicationRole>(context));
                 return roleManager;
             }
         }
